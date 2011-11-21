@@ -1,0 +1,39 @@
+grammar ListComprehension
+  rule list_comprehension
+    expression for target in iter filter
+  end
+
+  rule expression
+    (!for .)*
+  end
+
+  rule for
+    " for "
+  end
+
+  rule target
+    (!in .)*
+  end
+
+  rule in
+    " in "
+  end
+
+  rule iter
+    (!filter_type .)*
+  end
+
+  rule filter
+     (type:filter_type? test)
+  end
+
+  rule filter_type
+    (" if " / " unless ")
+  end
+
+  rule test
+     .*
+  end
+end 
+  
+  
