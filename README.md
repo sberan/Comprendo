@@ -15,7 +15,7 @@ Useful? Maybe. Cool? Definitely.
 Comprendo overrides the backtick (\`) character to 
 allow python-style list comprehensions within backticks.
 It does not do this globally. Since it *does not* monkeypatch, 
-omprendo must be included as a mixin in order to be used.
+comprendo must be included as a mixin in order to be used.
 
 #Examples
 
