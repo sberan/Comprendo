@@ -4,7 +4,6 @@ require 'treetop'
 require 'list_comprehension'
 
 module Comprendo
-  VERSION = "0.2"
 
   def `(cmp)
     @parser ||= ListComprehensionParser.new
