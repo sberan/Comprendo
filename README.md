@@ -10,20 +10,13 @@ Useful? Maybe. Cool? Definitely.
 
     gem install comprendo
 
-#Usage
-
-Comprendo overrides the backtick (\`) character to 
-allow python-style list comprehensions within backticks.
-It does not do this globally. Since it *does not* monkeypatch, 
-comprendo must be included as a mixin in order to be used.
-
 #Examples
 
 ###Including
 
     include Comprendo
 
-Always include comprendo in the class where it is used, mmmkay?
+Always include comprendo in the class where it is used. Monkeypatching is bad, mmmkay?
     
 ###Base Case
     `x for x in [1,2,3]`
