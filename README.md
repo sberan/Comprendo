@@ -1,8 +1,11 @@
 #Comprendo
 
-###Python style list comprehensions for Ruby
+Overrides the backtick operator _without monkeypatching_ to provide Python style list comprehensions for Ruby.
 
-Useful? Maybe. Cool? Definitely.
+More info on Python's list comprehensions can be found in [PEP 202](http://www.python.org/dev/peps/pep-0202/)
+
+
+Useful? Maybe. Cool? I think so.
 
 
 
