@@ -25,7 +25,7 @@ Useful? Maybe. Cool? I think so.
 The view is just ruby code.
 
 ###Conditional
-    `x for x in s[1, 2, 3, 4] if x%2 == 1`
+    `x for x in [1, 2, 3, 4] if x%2 == 1`
     => [1,3]
     
 The conditional is just ruby code too.
